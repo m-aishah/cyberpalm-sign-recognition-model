@@ -20,9 +20,9 @@ console_handler.setLevel(logging.INFO)
 logger.addHandler(console_handler)
 
 # File paths
-best_model_path = "../MLP_model/Code/best_model.keras"
-label_encoder_path = "../MLP_model/Code/label_encoder.npy"
-scaler_params_path = "../MLP_model/Code/scaler_params.npy"
+best_model_path = "../models/best_model.keras"
+label_encoder_path = "../models/label_encoder.npy"
+scaler_params_path = "../models/scaler_params.npy"
 
 load_dotenv()
 client = Groq()
